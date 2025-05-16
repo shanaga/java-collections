@@ -1,7 +1,7 @@
 package com.practice.programs;
 
-import com.shanaga.database.AmazonDatabase;
-import com.shanaga.model.Customer;
+import com.practice.database.AmazonDatabase;
+import com.practice.model.Customer;
 
 import java.util.List;
 import java.util.stream.Collectors;
