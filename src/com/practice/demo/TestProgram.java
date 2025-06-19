@@ -1,10 +1,10 @@
-package com.practice.coding;
+package com.practice.demo;
 
 import java.util.*;
 
 public class TestProgram {
     public static void main(String[] args) {
-List<Integer> primaryIntegerList = new ArrayList<>(Arrays.asList(1, 2, 8, 9, 10));
+        List<Integer> primaryIntegerList = new ArrayList<>(Arrays.asList(1, 2, 8, 9, 10));
         List<Integer> secondaryIntegerList =  new ArrayList<>(Arrays.asList(3, 4, 11, 12, 13));
         primaryIntegerList.addAll(secondaryIntegerList);
         Collections.sort(primaryIntegerList);
